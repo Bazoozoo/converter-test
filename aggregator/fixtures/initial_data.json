@@ -1,0 +1,1354 @@
+[
+  {
+    "pk": 1,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "DZD",
+      "name": "Algerian Dinar"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "NAD",
+      "name": "Namibian Dollar"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "GHS",
+      "name": "Ghanaian Cedi"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "EGP",
+      "name": "Egyptian Pound"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BGN",
+      "name": "Bulgarian Lev"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "PAB",
+      "name": "Panamanian Balboa"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BOB",
+      "name": "Bolivian Boliviano"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "DKK",
+      "name": "Danish Krone"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BWP",
+      "name": "Botswanan Pula"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "LBP",
+      "name": "Lebanese Pound"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "TZS",
+      "name": "Tanzanian Shilling"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "VND",
+      "name": "Vietnamese Dong"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "AOA",
+      "name": "Angolan Kwanza"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "KHR",
+      "name": "Cambodian Riel"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MYR",
+      "name": "Malaysian Ringgit"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "KYD",
+      "name": "Cayman Islands Dollar"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "LYD",
+      "name": "Libyan Dinar"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "UAH",
+      "name": "Ukrainian Hryvnia"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "JOD",
+      "name": "Jordanian Dinar"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "AWG",
+      "name": "Aruban Florin"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SAR",
+      "name": "Saudi Riyal"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "LTL",
+      "name": "Lithuanian Litas"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "HKD",
+      "name": "Hong Kong Dollar"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CHF",
+      "name": "Swiss Franc"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "GIP",
+      "name": "Gibraltar Pound"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BYR",
+      "name": "Belarusian Ruble"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ALL",
+      "name": "Albanian Lek"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MRO",
+      "name": "Mauritanian Ouguiya"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "HRK",
+      "name": "Croatian Kuna"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "DJF",
+      "name": "Djiboutian Franc"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SZL",
+      "name": "Swazi Lilangeni"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "THB",
+      "name": "Thai Baht"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "XAF",
+      "name": "CFA Franc BEAC"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BND",
+      "name": "Brunei Dollar"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ISK",
+      "name": "Icelandic Kr\u00f3na"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "UYU",
+      "name": "Uruguayan Peso"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "NIO",
+      "name": "Nicaraguan C\u00f3rdoba"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "LAK",
+      "name": "Laotian Kip"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SYP",
+      "name": "Syrian Pound"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MAD",
+      "name": "Moroccan Dirham"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MZN",
+      "name": "Mozambican Metical"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "PHP",
+      "name": "Philippine Peso"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ZAR",
+      "name": "South African Rand"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "NPR",
+      "name": "Nepalese Rupee"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ZWL",
+      "name": "Zimbabwean Dollar"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "NGN",
+      "name": "Nigerian Naira"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CRC",
+      "name": "Costa Rican Col\u00f3n"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "AED",
+      "name": "United Arab Emirates Dirham"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "EEK",
+      "name": "Estonian Kroon"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MWK",
+      "name": "Malawian Kwacha"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "LKR",
+      "name": "Sri Lankan Rupee"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "PKR",
+      "name": "Pakistani Rupee"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "HUF",
+      "name": "Hungarian Forint"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BMD",
+      "name": "Bermudan Dollar"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "LSL",
+      "name": "Lesotho Loti"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MNT",
+      "name": "Mongolian Tugrik"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "AMD",
+      "name": "Armenian Dram"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "UGX",
+      "name": "Ugandan Shilling"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "QAR",
+      "name": "Qatari Rial"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "XDR",
+      "name": "Special Drawing Rights"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "JMD",
+      "name": "Jamaican Dollar"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "GEL",
+      "name": "Georgian Lari"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SHP",
+      "name": "Saint Helena Pound"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "AFN",
+      "name": "Afghan Afghani"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SBD",
+      "name": "Solomon Islands Dollar"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "KPW",
+      "name": "North Korean Won"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "TRY",
+      "name": "Turkish Lira"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BDT",
+      "name": "Bangladeshi Taka"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "YER",
+      "name": "Yemeni Rial"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "HTG",
+      "name": "Haitian Gourde"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "XOF",
+      "name": "CFA Franc BCEAO"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MGA",
+      "name": "Malagasy Ariary"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ANG",
+      "name": "Netherlands Antillean Guilder"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "LRD",
+      "name": "Liberian Dollar"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "RWF",
+      "name": "Rwandan Franc"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "NOK",
+      "name": "Norwegian Krone"
+    }
+  },
+  {
+    "pk": 77,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MOP",
+      "name": "Macanese Pataca"
+    }
+  },
+  {
+    "pk": 78,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "INR",
+      "name": "Indian Rupee"
+    }
+  },
+  {
+    "pk": 79,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MXN",
+      "name": "Mexican Peso"
+    }
+  },
+  {
+    "pk": 80,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CZK",
+      "name": "Czech Republic Koruna"
+    }
+  },
+  {
+    "pk": 81,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "TJS",
+      "name": "Tajikistani Somoni"
+    }
+  },
+  {
+    "pk": 82,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BTC",
+      "name": "Bitcoin"
+    }
+  },
+  {
+    "pk": 83,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BTN",
+      "name": "Bhutanese Ngultrum"
+    }
+  },
+  {
+    "pk": 84,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "COP",
+      "name": "Colombian Peso"
+    }
+  },
+  {
+    "pk": 85,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "TMT",
+      "name": "Turkmenistani Manat"
+    }
+  },
+  {
+    "pk": 86,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MUR",
+      "name": "Mauritian Rupee"
+    }
+  },
+  {
+    "pk": 87,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "IDR",
+      "name": "Indonesian Rupiah"
+    }
+  },
+  {
+    "pk": 88,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "HNL",
+      "name": "Honduran Lempira"
+    }
+  },
+  {
+    "pk": 89,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "XPF",
+      "name": "CFP Franc"
+    }
+  },
+  {
+    "pk": 90,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "FJD",
+      "name": "Fijian Dollar"
+    }
+  },
+  {
+    "pk": 91,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ETB",
+      "name": "Ethiopian Birr"
+    }
+  },
+  {
+    "pk": 92,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "PEN",
+      "name": "Peruvian Nuevo Sol"
+    }
+  },
+  {
+    "pk": 93,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BZD",
+      "name": "Belize Dollar"
+    }
+  },
+  {
+    "pk": 94,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ILS",
+      "name": "Israeli New Sheqel"
+    }
+  },
+  {
+    "pk": 95,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "DOP",
+      "name": "Dominican Peso"
+    }
+  },
+  {
+    "pk": 96,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "GGP",
+      "name": "Guernsey Pound"
+    }
+  },
+  {
+    "pk": 97,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MDL",
+      "name": "Moldovan Leu"
+    }
+  },
+  {
+    "pk": 98,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BSD",
+      "name": "Bahamian Dollar"
+    }
+  },
+  {
+    "pk": 99,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SEK",
+      "name": "Swedish Krona"
+    }
+  },
+  {
+    "pk": 100,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ZMK",
+      "name": "Zambian Kwacha (pre-2013)"
+    }
+  },
+  {
+    "pk": 101,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "JEP",
+      "name": "Jersey Pound"
+    }
+  },
+  {
+    "pk": 102,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "AUD",
+      "name": "Australian Dollar"
+    }
+  },
+  {
+    "pk": 103,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SRD",
+      "name": "Surinamese Dollar"
+    }
+  },
+  {
+    "pk": 104,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CUP",
+      "name": "Cuban Peso"
+    }
+  },
+  {
+    "pk": 105,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CLF",
+      "name": "Chilean Unit of Account (UF)"
+    }
+  },
+  {
+    "pk": 106,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BBD",
+      "name": "Barbadian Dollar"
+    }
+  },
+  {
+    "pk": 107,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "KMF",
+      "name": "Comorian Franc"
+    }
+  },
+  {
+    "pk": 108,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "KRW",
+      "name": "South Korean Won"
+    }
+  },
+  {
+    "pk": 109,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "GMD",
+      "name": "Gambian Dalasi"
+    }
+  },
+  {
+    "pk": 110,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "VEF",
+      "name": "Venezuelan Bol\u00edvar Fuerte"
+    }
+  },
+  {
+    "pk": 111,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "IMP",
+      "name": "Manx pound"
+    }
+  },
+  {
+    "pk": 112,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CUC",
+      "name": "Cuban Convertible Peso"
+    }
+  },
+  {
+    "pk": 113,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CLP",
+      "name": "Chilean Peso"
+    }
+  },
+  {
+    "pk": 114,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ZMW",
+      "name": "Zambian Kwacha"
+    }
+  },
+  {
+    "pk": 115,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "EUR",
+      "name": "Euro"
+    }
+  },
+  {
+    "pk": 116,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CDF",
+      "name": "Congolese Franc"
+    }
+  },
+  {
+    "pk": 117,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "XCD",
+      "name": "East Caribbean Dollar"
+    }
+  },
+  {
+    "pk": 118,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "KZT",
+      "name": "Kazakhstani Tenge"
+    }
+  },
+  {
+    "pk": 119,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "RUB",
+      "name": "Russian Ruble"
+    }
+  },
+  {
+    "pk": 120,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "XAG",
+      "name": "Silver (troy ounce)"
+    }
+  },
+  {
+    "pk": 121,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "TTD",
+      "name": "Trinidad and Tobago Dollar"
+    }
+  },
+  {
+    "pk": 122,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "OMR",
+      "name": "Omani Rial"
+    }
+  },
+  {
+    "pk": 123,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BRL",
+      "name": "Brazilian Real"
+    }
+  },
+  {
+    "pk": 124,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MMK",
+      "name": "Myanma Kyat"
+    }
+  },
+  {
+    "pk": 125,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "PLN",
+      "name": "Polish Zloty"
+    }
+  },
+  {
+    "pk": 126,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "PYG",
+      "name": "Paraguayan Guarani"
+    }
+  },
+  {
+    "pk": 127,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "KES",
+      "name": "Kenyan Shilling"
+    }
+  },
+  {
+    "pk": 128,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SVC",
+      "name": "Salvadoran Col\u00f3n"
+    }
+  },
+  {
+    "pk": 129,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MKD",
+      "name": "Macedonian Denar"
+    }
+  },
+  {
+    "pk": 130,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "GBP",
+      "name": "British Pound Sterling"
+    }
+  },
+  {
+    "pk": 131,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "AZN",
+      "name": "Azerbaijani Manat"
+    }
+  },
+  {
+    "pk": 132,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "TOP",
+      "name": "Tongan Pa\u02bbanga"
+    }
+  },
+  {
+    "pk": 133,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MVR",
+      "name": "Maldivian Rufiyaa"
+    }
+  },
+  {
+    "pk": 134,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "VUV",
+      "name": "Vanuatu Vatu"
+    }
+  },
+  {
+    "pk": 135,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "GNF",
+      "name": "Guinean Franc"
+    }
+  },
+  {
+    "pk": 136,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "WST",
+      "name": "Samoan Tala"
+    }
+  },
+  {
+    "pk": 137,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "IQD",
+      "name": "Iraqi Dinar"
+    }
+  },
+  {
+    "pk": 138,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ERN",
+      "name": "Eritrean Nakfa"
+    }
+  },
+  {
+    "pk": 139,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BAM",
+      "name": "Bosnia-Herzegovina Convertible Mark"
+    }
+  },
+  {
+    "pk": 140,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SCR",
+      "name": "Seychellois Rupee"
+    }
+  },
+  {
+    "pk": 141,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CAD",
+      "name": "Canadian Dollar"
+    }
+  },
+  {
+    "pk": 142,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CVE",
+      "name": "Cape Verdean Escudo"
+    }
+  },
+  {
+    "pk": 143,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "KWD",
+      "name": "Kuwaiti Dinar"
+    }
+  },
+  {
+    "pk": 144,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BIF",
+      "name": "Burundian Franc"
+    }
+  },
+  {
+    "pk": 145,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "PGK",
+      "name": "Papua New Guinean Kina"
+    }
+  },
+  {
+    "pk": 146,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SOS",
+      "name": "Somali Shilling"
+    }
+  },
+  {
+    "pk": 147,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "TWD",
+      "name": "New Taiwan Dollar"
+    }
+  },
+  {
+    "pk": 148,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SGD",
+      "name": "Singapore Dollar"
+    }
+  },
+  {
+    "pk": 149,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "UZS",
+      "name": "Uzbekistan Som"
+    }
+  },
+  {
+    "pk": 150,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "STD",
+      "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe Dobra"
+    }
+  },
+  {
+    "pk": 151,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "IRR",
+      "name": "Iranian Rial"
+    }
+  },
+  {
+    "pk": 152,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "CNY",
+      "name": "Chinese Yuan"
+    }
+  },
+  {
+    "pk": 153,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SLL",
+      "name": "Sierra Leonean Leone"
+    }
+  },
+  {
+    "pk": 154,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "TND",
+      "name": "Tunisian Dinar"
+    }
+  },
+  {
+    "pk": 155,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "GYD",
+      "name": "Guyanaese Dollar"
+    }
+  },
+  {
+    "pk": 156,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "MTL",
+      "name": "Maltese Lira"
+    }
+  },
+  {
+    "pk": 157,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "NZD",
+      "name": "New Zealand Dollar"
+    }
+  },
+  {
+    "pk": 158,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "FKP",
+      "name": "Falkland Islands Pound"
+    }
+  },
+  {
+    "pk": 159,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "LVL",
+      "name": "Latvian Lats"
+    }
+  },
+  {
+    "pk": 160,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "USD",
+      "name": "United States Dollar"
+    }
+  },
+  {
+    "pk": 161,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "KGS",
+      "name": "Kyrgystani Som"
+    }
+  },
+  {
+    "pk": 162,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "ARS",
+      "name": "Argentine Peso"
+    }
+  },
+  {
+    "pk": 163,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "RON",
+      "name": "Romanian Leu"
+    }
+  },
+  {
+    "pk": 164,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "GTQ",
+      "name": "Guatemalan Quetzal"
+    }
+  },
+  {
+    "pk": 165,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "RSD",
+      "name": "Serbian Dinar"
+    }
+  },
+  {
+    "pk": 166,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "BHD",
+      "name": "Bahraini Dinar"
+    }
+  },
+  {
+    "pk": 167,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "JPY",
+      "name": "Japanese Yen"
+    }
+  },
+  {
+    "pk": 168,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "SDG",
+      "name": "Sudanese Pound"
+    }
+  },
+  {
+    "pk": 169,
+    "model": "aggregator.currencyinfo",
+    "fields": {
+      "code": "XAU",
+      "name": "Gold (troy ounce)"
+    }
+  }
+]

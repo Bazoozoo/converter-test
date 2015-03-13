@@ -28,13 +28,12 @@ def get_currency_rates(self):
     except requests.ConnectionError as e:
         raise self.retry(exc=e, countdown=5)
     currency_data = r.json()
-    print currency_data
     for code, rate in currency_data['rates'].items():
-        curr_name = CurrencyInfo.objects.get(code=code)
+        curr_info = CurrencyInfo.objects.get(code=code)
         try:
-            curr_rate = CurrencyRate.objects.get(name=curr_name)
+            curr_rate = CurrencyRate.objects.get(info=curr_info)
         except CurrencyRate.DoesNotExist:
-            curr_rate = CurrencyRate(name=curr_name)
+            curr_rate = CurrencyRate(info=curr_info)
         curr_rate.rate = rate
         curr_rate.last_updated = datetime.datetime.fromtimestamp(currency_data["timestamp"])
         curr_rate.save()

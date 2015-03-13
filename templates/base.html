@@ -1,0 +1,19 @@
+{% extends 'bare_base.html' %}
+
+{% block body %}
+    {% include "snippets/nav_bar.html" %}
+    <div class="container">
+        {% include "snippets/alerts.html" %}
+        {% block content %}
+        {% endblock %}
+    </div>
+{#    {% include "snippets/footer_bar.html" %}#}
+{% endblock %}
+
+{# menu active link highlight #}
+{% block js %}
+    {{ block.super }}
+    <script>
+        $('.navbar').find('a[href="' + location.pathname + '"]').parents('li').addClass('active');
+    </script>
+{% endblock %}

@@ -6,13 +6,13 @@ class CurrencyInfo(models.Model):
     code = models.CharField(max_length=3)
 
     def __unicode__(self):
-        return u'%s' % self.code
+        return u'%s(%s)' % (self.name, self.code)
 
 
 class CurrencyRate(models.Model):
     rate = models.FloatField()
-    name = models.ForeignKey('CurrencyInfo')
+    info = models.ForeignKey('CurrencyInfo')
     last_updated = models.DateTimeField()
 
     def __unicode__(self):
-        return u'%s(%s): %s' % (self.name.code.upper(), self.name.name, self.rate)
+        return u'%s: %s' % (self.info, self.rate)

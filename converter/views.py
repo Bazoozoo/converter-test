@@ -1,9 +1,13 @@
 import json
 from django.contrib import messages
+from django.core.cache import cache
 from django.http.response import HttpResponse
 from django.shortcuts import render, redirect
 from aggregator.models import CurrencyRate
 from converter.forms import ConvertCurrencyForm
+
+
+CACHE_TIMEOUT = 30 * 60
 
 
 class UnknownCurrency(Exception):
@@ -55,12 +59,27 @@ def convert(request, amount, code_from, code_to, response_type):
 
 def __convert_currency(amount, code_from, code_to):
     try:
-        rate_from = CurrencyRate.objects.get(name__code=code_from.upper())
-    except CurrencyRate.DoesNotExist:
-        raise UnknownCurrency("Unknown source currency code: %s" % code_from.upper())
+        rate_from = __get_currency_rate(code_from)
+    except UnknownCurrency as exc:
+        exc.message = "Unknown source currency code: %s" % code_from
+        raise exc
     try:
-        rate_to = CurrencyRate.objects.get(name__code=code_to.upper())
-    except CurrencyRate.DoesNotExist:
-        raise UnknownCurrency("Unknown target currency code: %s" % code_to.upper())
-    result = float(amount) * (rate_to.rate / rate_from.rate)
+        rate_to = __get_currency_rate(code_to)
+    except UnknownCurrency as exc:
+        exc.message = "Unknown target currency code: %s" % code_to
+        raise exc
+    result = float(amount) * (rate_to / rate_from)
     return result
+
+
+def __get_currency_rate(currency_code):
+    currency_code = currency_code.upper()
+    rate = cache.get(currency_code)
+    if rate is None:
+        try:
+            rate = CurrencyRate.objects.get(info__code=currency_code).rate
+            cache.set(currency_code, rate, CACHE_TIMEOUT)
+        except CurrencyRate.DoesNotExist:
+            raise UnknownCurrency
+    return rate
+

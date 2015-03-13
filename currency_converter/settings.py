@@ -23,12 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'x2w1_$-h1wddp^d_vqtx)ay6kzc7@($tmzj1hfp@4cavnmj^5z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-PRODUCTION = not DEBUG
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -41,6 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'widget_tweaks',
+    'kombu.transport.django',
     # 'djcelery',
     'aggregator',
     'converter',
@@ -70,6 +70,13 @@ DATABASES = {
     }
 }
 
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+        'LOCATION': os.path.join(BASE_DIR, 'django_cache'),
+    }
+}
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
@@ -88,6 +95,7 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'staticfiles'
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
@@ -113,15 +121,15 @@ CELERYBEAT_SCHEDULE = {
     },
 }
 
+BROKER_URL = 'django://'
+
+CELERY_TASK_SERIALIZER = 'json'
+
 OPENEXCHANGERATES_API_URL = 'http://openexchangerates.org/api/latest.json'
 
-if not PRODUCTION:
-    try:
-        from local_settings import *
-    except ImportError:
-        pass
-else:
-    try:
-        from prod_settings import *
-    except ImportError:
-        pass
+OPENEXCHANGERATES_APP_ID = '486906ec494b472693ea9cab3a2c22cc'
+
+# Parse database configuration from $DATABASE_URL
+import dj_database_url
+DATABASES['default'] = dj_database_url.config()
+

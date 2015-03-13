@@ -12,12 +12,12 @@ APP_ID = getattr(settings, 'OPENEXCHANGERATES_APP_ID', None)
 API_URL = getattr(settings, 'OPENEXCHANGERATES_API_URL', None)
 
 if APP_ID is None:
-        raise ImproperlyConfigured("App ID not found. Did you define it in settings.py?(OPENEXCHANGERATES_APP_ID)")
+    raise ImproperlyConfigured("App ID not found. Did you define it in settings.py?(OPENEXCHANGERATES_APP_ID)")
 if API_URL is None:
     raise ImproperlyConfigured("API Url not found. Did you define it in settings.py?(OPENEXCHANGERATES_API_URL)")
 
 
-@task(bind=True, max_retries=3)
+@task(bind=True, max_retries=3, ignore_result=True)
 def get_currency_rates(self):
     logger.info("fetching data")
     request_parameters = {

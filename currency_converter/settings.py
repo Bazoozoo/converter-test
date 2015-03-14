@@ -41,7 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'widget_tweaks',
     'kombu.transport.django',
-    # 'djcelery',
+    'djcelery',
     'aggregator',
     'converter',
 )
@@ -114,6 +114,8 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
+CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+
 CELERYBEAT_SCHEDULE = {
     'collect-rates': {
         'task': 'aggregator.tasks.get_currency_rates',
@@ -124,6 +126,7 @@ CELERYBEAT_SCHEDULE = {
 BROKER_URL = 'django://'
 
 CELERY_TASK_SERIALIZER = 'json'
+CELERY_ACCEPT_CONTENT = ['json']
 
 OPENEXCHANGERATES_API_URL = 'http://openexchangerates.org/api/latest.json'
 

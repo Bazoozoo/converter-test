@@ -6,3 +6,4 @@ requests==2.5.3
 psycopg2==2.5.3
 dj-database-url==0.3.0
 dj-static==0.0.6
+honcho==0.5.0

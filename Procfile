@@ -1,1 +1,1 @@
-web: gunicorn currency_converter.wsgi --log-file -
+web: honcho -f HonchoProcfile start

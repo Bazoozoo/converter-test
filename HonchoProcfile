@@ -1,1 +1,1 @@
-web: gunicorn currency_converter.wsgi --log-file -
+web: gunicorn currency_converter.wsgi -b 0.0.0.0:$PORT -w 4

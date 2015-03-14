@@ -1,3 +1,1 @@
 web: gunicorn currency_converter.wsgi --log-file -
-worker: python manage.py celery worker --loglevel=INFO --concurrency=1
-beat: python manage.py celery beat --loglevel=INFO

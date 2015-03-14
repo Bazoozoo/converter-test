@@ -1,1 +1,2 @@
-web: gunicorn currency_converter.wsgi -b 0.0.0.0:$PORT -w 4
+worker: python manage.py celery worker --loglevel=INFO --concurrency=1
+beat: python manage.py celery beat --loglevel=INFO

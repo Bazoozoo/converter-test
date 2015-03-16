@@ -9,6 +9,7 @@ class CurrencyInfoAdmin(admin.ModelAdmin):
 
 class CurrencyRateAdmin(admin.ModelAdmin):
     model = CurrencyRate
+    ordering = ['info__code']
     list_display = ['currency_code', 'rate', 'currency_name']
 
     def currency_code(self, obj):

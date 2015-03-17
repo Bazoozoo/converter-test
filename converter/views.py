@@ -38,7 +38,7 @@ def convert(request, amount, code_from, code_to, response_type):
         response_data['result'] = result
     except UnknownCurrency as e:
         response_data['success'] = False
-        response_data['error'] = str(e)
+        response_data['error'] = e.message
     if response_type == 'html':
         if response_data['success']:
             response_data['amount'] = amount
